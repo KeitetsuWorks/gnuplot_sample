@@ -53,12 +53,17 @@ int main(int argc, char *argv[])
 
 
     flag_error = 0;
-    delta_deg = 0.01;
-    csv_fname = NULL;
     flag_plot = 0;
-    gnuplot_scr_fname = NULL;
     flag_show = 0;
+
     SakuraGraph = NULL;
+    delta_deg = 0.01;
+
+    csv_fname = NULL;
+    gnuplot_scr_fname = NULL;
+
+    gnuplot_fp = NULL;
+    gnuplot_cmd = NULL;
 
 
     while (flag_error == 0) {
@@ -97,6 +102,9 @@ int main(int argc, char *argv[])
     }
 
     if (flag_error != 0) {
+        free(csv_fname);
+        free(gnuplot_scr_fname);
+
         exit(EXIT_FAILURE);
     }
 
