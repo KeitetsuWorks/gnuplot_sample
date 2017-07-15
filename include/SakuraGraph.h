@@ -58,7 +58,7 @@ void SakuraGraph_printGraphData(GRAPH_T *graph_head);
 
 
 /**
- * @brief   グラフデータをファイルに作成する
+ * @brief   グラフデータをファイルに保存する
  * @param[in]       graph_head      グラフデータリストの先頭要素のポインタ
  * @param[in]       csv_fname       ファイル名
  */
