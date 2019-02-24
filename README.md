@@ -16,7 +16,7 @@ gnuplotによるグラフ描画のサンプルプログラム。
 
 ## Usage
 
-        $ ./bin/gnuplot_sample --plot
+    $ ./bin/gnuplot_sample --plot
 
 
 ## Installation
