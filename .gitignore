@@ -54,7 +54,6 @@ dkms.conf
 
 ### gnuplot_sample ###
 spec_html/
-latex/
 bin/
 obj/
 SakuraGraph.csv
