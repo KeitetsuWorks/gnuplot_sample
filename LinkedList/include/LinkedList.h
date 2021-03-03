@@ -19,9 +19,9 @@
  * @brief   連結リスト要素構造体
  */
 typedef struct list_element_st {
-    void *object;                   /*!< 要素データのポインタ */
-    struct list_element_st *prev;   /*!< 前の要素のポインタ */
-    struct list_element_st *next;   /*!< 次の要素のポインタ */
+    void *object;                   /**< 要素データのポインタ */
+    struct list_element_st *prev;   /**< 前の要素のポインタ */
+    struct list_element_st *next;   /**< 次の要素のポインタ */
 } LIST_ELEMENT_T;
 
 

@@ -29,8 +29,8 @@ typedef LIST_ELEMENT_T GRAPH_T;
  * @brief   グラフ座標データ構造体
  */
 typedef struct graph_coord_st {
-    double x;       /*!< X座標 */
-    double y;       /*!< Y座標 */
+    double x;       /**< X座標 */
+    double y;       /**< Y座標 */
 } GRAPH_COORD_T;
 
 
